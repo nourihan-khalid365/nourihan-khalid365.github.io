@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nourihan Khaled Abdelmotaleb — Portfolio</title>
+<style>
+:root{
+  --bg:#EEF3F6;--surface:#FFFFFF;--ink:#10222B;--muted:#53646C;--line:#D3DEE3;--accent:#0F6E7A;--accent-ink:#FFFFFF;
+  box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){--bg:#0E1A20;--surface:#15262E;--ink:#E6EEF1;--muted:#9DB0B8;--line:#26404A;--accent:#5CC4CF;--accent-ink:#0E1A20;color-scheme:dark}
+}
+:root[data-theme="dark"]{--bg:#0E1A20;--surface:#15262E;--ink:#E6EEF1;--muted:#9DB0B8;--line:#26404A;--accent:#5CC4CF;--accent-ink:#0E1A20;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--accent)}
+a:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.wrap{max-width:860px;margin:0 auto;padding:48px 22px 64px}
+h1,h2,h3{font-family:Georgia,"Iowan Old Style","Times New Roman",serif;font-weight:700;line-height:1.15;margin:0}
+h1{font-size:clamp(2.2rem,6vw,3.4rem);letter-spacing:-.01em}
+.role{font-size:1.15rem;color:var(--muted);margin:10px 0 0;max-width:34em}
+.hero{display:grid;gap:28px;grid-template-columns:1fr;padding-bottom:40px;border-bottom:1px solid var(--line)}
+@media (min-width:760px){.hero{grid-template-columns:1.2fr 1fr;align-items:start}}
+.contact{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.btn{display:inline-block;padding:10px 16px;border-radius:6px;border:1px solid var(--accent);text-decoration:none;font-weight:600;font-size:.95rem}
+.btn.primary{background:var(--accent);color:var(--accent-ink)}
+.sheet{background:var(--surface);border:1px solid var(--line);border-left:5px solid var(--accent);border-radius:4px;padding:6px 20px}
+.sheet h2{font-size:1.05rem;padding:14px 0 6px}
+.sheet dl{margin:0}
+.sheet .row{display:flex;justify-content:space-between;gap:16px;padding:10px 0;border-top:1px solid var(--line)}
+.sheet dt{color:var(--muted)}
+.sheet dd{margin:0;font-weight:600;text-align:right}
+section{display:grid;gap:10px 40px;grid-template-columns:1fr;padding:34px 0;border-bottom:1px solid var(--line)}
+@media (min-width:760px){section{grid-template-columns:170px 1fr}}
+section>h2{font-size:1.3rem}
+p{margin:0 0 12px;max-width:62ch}
+.item{margin-bottom:22px}
+.item:last-child{margin-bottom:0}
+.item h3{font-size:1.1rem;margin-bottom:2px}
+.meta{color:var(--muted);font-size:.92rem;margin-bottom:6px}
+ul{margin:6px 0 0;padding-left:20px;max-width:62ch}
+li{margin-bottom:4px}
+.tags{display:flex;flex-wrap:wrap;gap:8px;padding:0;list-style:none;margin:0}
+.tags li{margin:0;padding:4px 11px;border:1px solid var(--line);background:var(--surface);border-radius:999px;font-size:.92rem}
+.group{margin-bottom:16px}
+.group h3{font-size:.98rem;margin-bottom:8px;font-family:system-ui,sans-serif}
+footer{padding-top:30px;color:var(--muted);font-size:.92rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="hero">
+  <div>
+    <h1>Nourihan Khaled Abdelmotaleb</h1>
+    <p class="role">Information Systems graduate focused on online research, careful verification, and clear documentation. Native Arabic speaker, working in English at B2 level.</p>
+    <div class="contact">
+      <a class="btn primary" href="mailto:nourihan80@gmail.com">Email me</a>
+      <a class="btn" href="https://linkedin.com/in/nourihan-khalid-783856374">LinkedIn</a>
+      <a class="btn" href="https://github.com/nourihan-khalid365">GitHub</a>
+    </div>
+  </div>
+  <aside class="sheet" aria-label="Fact sheet">
+    <h2>Fact sheet</h2>
+    <dl>
+      <div class="row"><dt>Degree</dt><dd>B.Sc. Information Systems, 2026</dd></div>
+      <div class="row"><dt>GPA</dt><dd>3.58 / 4.00</dd></div>
+      <div class="row"><dt>Languages</dt><dd>Arabic (native), English (B2)</dd></div>
+      <div class="row"><dt>Certifications</dt><dd>5</dd></div>
+      <div class="row"><dt>Projects</dt><dd>3</dd></div>
+      <div class="row"><dt>Location</dt><dd>Assiut, Egypt</dd></div>
+    </dl>
+  </aside>
+</header>
+
+<section>
+  <h2>About</h2>
+  <div>
+    <p>I graduated from Assiut National University with a degree in Information Systems. My coursework in systems analysis, databases, and decision support taught me to check requirements, compare information carefully, and write down my findings clearly.</p>
+    <p>I’m looking for remote, project-based work in data and AI tasks, such as fact checking, response evaluation, annotation, and content review in Arabic and English.</p>
+  </div>
+</section>
+
+<section>
+  <h2>Skills</h2>
+  <div>
+    <div class="group"><h3>Research and review</h3>
+      <ul class="tags"><li>Online research</li><li>Comparing sources</li><li>Attention to detail</li><li>Following guidelines</li><li>Written documentation</li><li>Arabic content review</li></ul></div>
+    <div class="group"><h3>Technical</h3>
+      <ul class="tags"><li>Python</li><li>SQL</li><li>MS SQL Server</li><li>C++</li><li>C#</li><li>Dart / Flutter</li><li>ASP.NET Core MVC</li><li>Git and GitHub</li><li>Linux basics</li></ul></div>
+    <div class="group"><h3>Working style</h3>
+      <ul class="tags"><li>Independent</li><li>Methodical</li><li>Teamwork</li><li>Time management</li><li>Quick to learn</li></ul></div>
+  </div>
+</section>
+
+<section>
+  <h2>Projects</h2>
+  <div>
+    <div class="item">
+      <h3>Tamkeen Health Connect</h3>
+      <div class="meta">Graduation project, team project · Flutter, relational database</div>
+      <ul>
+        <li>Worked on a healthcare information system for clinic operations and patient records.</li>
+        <li>Contributed to system requirements, application features, and the multi-table database design.</li>
+      </ul>
+    </div>
+    <div class="item">
+      <h3>Dental Clinical and Training Management System</h3>
+      <div class="meta">Academic capstone · ASP.NET Core MVC, MS SQL Server</div>
+      <ul>
+        <li>Built a web platform to record clinical evaluations, student progress, and lab schedules.</li>
+        <li>Added role-based access so each user sees only what they need.</li>
+      </ul>
+    </div>
+    <div class="item">
+      <h3>Budget Tracker</h3>
+      <div class="meta">Software engineering lab · Python, Tkinter</div>
+      <ul>
+        <li>Built a desktop app for budgeting, expense classification, and reports.</li>
+        <li><a href="https://github.com/nourihan-khalid365/Budget-Tracker">View the code on GitHub</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Training</h2>
+  <div>
+    <div class="item">
+      <h3>Digital Egypt Pioneers Initiative (DEPI)</h3>
+      <div class="meta">Ministry of Communications and IT · Jun 2025 – Dec 2025</div>
+      <p>Six-month scholarship in cross-platform mobile development with Flutter and Dart, including agile sprints, peer code reviews, and design reviews.</p>
+    </div>
+    <div class="item">
+      <h3>Information Technology Institute (ITI)</h3>
+      <div class="meta">Mobile Application Development Summer Program · Summer 2025</div>
+      <p>Intensive program in object-oriented programming, algorithmic efficiency, and client-server integration.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Certifications</h2>
+  <ul>
+    <li>Understanding Data Engineering, DataCamp (2026)</li>
+    <li>Learn Python 3, Educative (2026)</li>
+    <li>Data Analytics Foundations, DeepLearning.AI / Coursera (2025)</li>
+    <li>Mastering Programming and Logic Building, Udemy (2025)</li>
+    <li>C++ Programming Fundamentals, M3aarf</li>
+  </ul>
+</section>
+
+<section style="border-bottom:0">
+  <h2>Contact</h2>
+  <div>
+    <p>Available for freelance and remote projects.</p>
+    <p><a href="mailto:nourihan80@gmail.com">nourihan80@gmail.com</a><br>
+    <a href="tel:+201113152956">+20 111 315 2956</a></p>
+  </div>
+</section>
+
+<footer>Nourihan Khaled Abdelmotaleb · Assiut, Egypt</footer>
+</div>
+</body>
+</html>
